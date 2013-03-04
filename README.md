@@ -1,4 +1,4 @@
 cs161-tools
 ===========
 
-cs161 tools
+scripts for grading cs161

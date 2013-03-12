@@ -37,7 +37,7 @@ def grade(gl_name, csv_name)
       # comments
       comments = ""
       [2,4,6,8].each do |i|
-        comments << row[i].to_s << "; "
+        comments << "Problem " << (i/2).to_s << ": score-> " << row[i-1].to_s << " comments-> " << row[i].to_s << "; "
       end
       roster[login] = roster[login][0..-2] << score.to_s << " " << comments << "\n"
     end
